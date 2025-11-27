@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Jakarta";
+  src: url("/fonts/Bassy.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@theme {
+  --font-jakarta: "Jakarta", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --color-primary: #c0c0c0;
+  --color-secondary: #c9cdcf;
+  --color-accent: #a8a7a8;
+}
+
+@layer utilities {
+  h1 {
+    @apply font-semibold;
+  }
+
+  h2 {
+    @apply font-medium;
+  }
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    #f7f7f7 0%,
+    #d7d7d7 30%,
+    #ffffff 52%,
+    #b8b8b8 75%,
+    #dedede 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: var(--font-raleway);
+  overflow-x: hidden;
+}
