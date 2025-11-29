@@ -15,7 +15,8 @@
   --font-raleway: "Raleway", sans-serif;
   --color-primary: #c0c0c0;
   --color-secondary: #c9cdcf;
-  --color-accent: #a8a7a8;
+  --color-accent: #d4af37;
+  --color-liverpoolRed: #c8102e;
 }
 
 @layer utilities {
@@ -24,7 +25,11 @@
   }
 
   h2 {
-    @apply font-medium;
+    @apply text-[25px] font-semibold leading-[35px];
+  }
+
+  h3 {
+    @apply text-[18px] font-semibold leading-[30px];
   }
 }
 
