@@ -52,8 +52,8 @@ export default function Experience() {
   );
 
   return (
-    <section className="px-5 pt-8">
-      <h2 className="mb-8 text-gray-900">Experience</h2>
+    <section className="px-5 pt-12">
+      <h2 className="mb-4 text-gray-900">Experience</h2>
 
       <div ref={timelineRef} className="relative pl-8 sm:pl-10">
         <span

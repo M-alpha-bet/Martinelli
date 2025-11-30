@@ -8,7 +8,7 @@ export default function Footer() {
         <p className="text-center text-[15px] font-semibold">
           Let's build something special together
         </p>
-        <div className="flex justify-center py-2 gap-8 items-center">
+        <div className="flex justify-center py-5 gap-8 items-center">
           <FaXTwitter className="size-6" />
           <FaInstagram className="size-6" />
           <FaWhatsapp className="size-6" />

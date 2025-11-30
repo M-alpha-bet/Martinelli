@@ -25,11 +25,11 @@
   }
 
   h2 {
-    @apply text-[25px] font-semibold leading-[35px];
+    @apply text-[27px] font-extrabold leading-[35px];
   }
 
   h3 {
-    @apply text-[18px] font-semibold leading-[30px];
+    @apply text-[20px] font-semibold leading-[30px];
   }
 }
 

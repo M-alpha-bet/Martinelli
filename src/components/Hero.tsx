@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <div className="px-5 md:max-w-[1000px] mx-auto">
-        <h2 className="py-4">
+        <h2 className="pt-6 pb-3">
           Hi, I'm Martin:
           <br />
           Full Stack Web Developer
