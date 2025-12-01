@@ -10,7 +10,7 @@ export default function Hero() {
           <br />
           Full Stack Web Developer
         </h2>
-        <p className="text-[17px] font-medium pb-5">
+        <p className="text-[17px] pb-5">
           I build web experiences that feel smooth, smart, and a little magical.
           I live in Lagos, Nigeria and I love exploring the Web3 and AI space.
           If your business needs a digital glow-up, let’s make something between
